@@ -1,32 +1,32 @@
 module.exports = {
-  plugins: ["@svgr/plugin-jsx"],
+  plugins: ['@svgr/plugin-jsx'],
   icon: true,
   jsx: {
     babelConfig: {
       plugins: [
         [
-          "@svgr/babel-plugin-add-jsx-attribute",
+          '@svgr/babel-plugin-add-jsx-attribute',
           {
-            elements: ["path", "svg"],
+            elements: ['path', 'svg'],
             attributes: [
               {
-                name: "fill",
-                value: "currentColor",
+                name: 'fill',
+                value: 'currentColor',
                 spread: false,
                 literal: false,
-                position: "end",
+                position: 'end'
               },
               {
-                name: "className",
-                value: "icon",
+                name: 'className',
+                value: 'icon',
                 spread: false,
                 literal: false,
-                position: "end",
-              },
-            ],
-          },
-        ],
-      ],
-    },
-  },
+                position: 'end'
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  }
 };

@@ -1,7 +1,7 @@
 ## Welcome to Curotec
 
 We are happy that you decided to apply to Curotec.
-As part of the hiring process, we are trying to evaluate your react skills. This challenge you are about to take is part of this process. 
+As part of the hiring process, we are trying to evaluate your react skills. This challenge you are about to take is part of this process.
 This repository contains boilerplaite of nextjs and storybook.
 
 ## Your task
@@ -15,7 +15,7 @@ Things you need to do.
 - Use <code>[styled-components](https://styled-components.com/)</code> for styling.
 - Add your component to the storybook.
 - Add <code>ESLint</code> and configure it for checking.
-- Check CSS & JS linting. 
+- Check CSS & JS linting.
 
 It should take you about 2 hours to complete the challenge.
 
@@ -30,9 +30,11 @@ Make sure the fork is publicly accessible so that we can review it.
 We will be reviewing your work in its entirety so please pay attention to the process you follow.
 
 ## Requirements
+
 - [Node.js](https://nodejs.org/en/)
 - [React.js](https://reactjs.org/)
 - [Next.js](https://nextjs.org/)
+
 ## Installation
 
 ```bash

@@ -1,10 +1,10 @@
-import React from "react";
-import { Button } from "../components";
+import React from 'react';
+import { Button } from '../components';
 
 export default {
-  title: "Components/Button",
+  title: 'Components/Button',
   component: Button,
-  argTypes: {},
+  argTypes: {}
 };
 
 const Template = (args) => <Button {...args} />;
@@ -12,9 +12,9 @@ const Template = (args) => <Button {...args} />;
 export const Primary = Template.bind({});
 Primary.args = {
   primary: true,
-  children: "Contact me",
+  children: 'Contact me'
 };
 export const Secondary = Template.bind({});
 Secondary.args = {
-  children: "My work",
+  children: 'My work'
 };
