@@ -1,5 +1,5 @@
 import React from 'react';
-import HeroImagePng from '../../Assets/Images/image.svg';
+import HeroImagePng from '../../Assets/Images/heroImage.png';
 import PropTypes from 'prop-types';
 import {
   HeroBackground,
@@ -13,7 +13,7 @@ import {
 } from './styled';
 
 export default function HeroSection(props) {
-  const { mainHeader, subHeader, buttonName, onClick } = props;
+  const { mainHeader, subHeader, buttonName, onClick, heroImage } = props;
   return (
     <HeroBackground>
       <HeroContainer>
@@ -23,7 +23,7 @@ export default function HeroSection(props) {
           <HeroButton onClick={onClick}>{buttonName}</HeroButton>
         </HeroTextContainer>
         <HeroImageContainer>
-          <HeroImage src={HeroImagePng} alt="hero" />
+          <HeroImage src={heroImage} alt="hero" />
         </HeroImageContainer>
       </HeroContainer>
     </HeroBackground>
@@ -34,6 +34,7 @@ HeroSection.propTypes = {
   mainHeader: PropTypes.string,
   subHeader: PropTypes.string,
   buttonName: PropTypes.string,
+  heroImage: PropTypes.string,
   onClick: PropTypes.func
 };
 
@@ -41,5 +42,6 @@ HeroSection.defaultProps = {
   mainHeader: 'Future-proof your business. WiFi 6E is here.',
   subHeader: ' Offer your customers the fastest performance possible with Plume.They’re ready.',
   buttonName: 'Learn more about WiFi 6E',
+  heroImage: HeroImagePng,
   onClick: undefined
 };
